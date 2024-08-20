@@ -1,31 +1,26 @@
-import logo from "../assets/logo";
-
-const blogData = {
-  name: "Underreacted",
-  image: logo,
-  about: "A blog about learning React",
-  posts: [
-    {
-      id: 1,
-      title: "Components 101",
-      date: "December 15, 2020",
-      preview: "Setting up the building blocks of your site",
-      minutes: 5,
-    },
-    {
-      id: 2,
-      title: "React Data Flow",
-      date: "December 11, 2020",
-      preview: "Passing props is never passé",
-      minutes: 15,
-    },
-    {
-      id: 3,
-      title: "Function vs Class Components",
-      preview: "React, meet OOJS.",
-      minutes: 47,
-    },
-  ],
-};
+const blogData = [
+  {
+    id: 1,
+    title: "Understanding React Hooks",
+    date: "August 10, 2024",
+    preview: "A deep dive into the React Hooks API and how it can simplify your code.",
+    minutes: 15
+  },
+  {
+    id: 2,
+    title: "JavaScript ES6 Features",
+    date: "August 12, 2024",
+    preview: "An overview of the new features introduced in ES6 and how they enhance JavaScript.",
+    minutes: 25
+  },
+  {
+    id: 3,
+    title: "Building Accessible Websites",
+    date: "August 15, 2024",
+    preview: "Tips and techniques for making your websites more accessible to users with disabilities.",
+    minutes: 45
+  }
+];
 
 export default blogData;
+
